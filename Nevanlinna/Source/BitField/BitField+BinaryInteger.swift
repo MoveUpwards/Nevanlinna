@@ -21,7 +21,7 @@ extension BinaryInteger {
         guard index >= 0, length > 0, index + length < bitWidth else { return Self(0) }
 
         var mask = Self(0)
-        (index..<index+length).forEach { currIndex in
+        (index..<index + length).forEach { currIndex in
             mask |= Self(1) << currIndex
         }
 
