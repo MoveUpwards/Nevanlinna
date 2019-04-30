@@ -14,3 +14,15 @@ extension BinaryInteger where Self: DataConvertible {
         return withUnsafeBytes(of: self) { Data($0) }
     }
 }
+
+extension UInt: DataConvertible { }
+extension UInt8: DataConvertible { }
+extension UInt16: DataConvertible { }
+extension UInt32: DataConvertible { }
+extension UInt64: DataConvertible { }
+
+extension Int: DataConvertible { }
+extension Int8: DataConvertible { }
+extension Int16: DataConvertible { }
+extension Int32: DataConvertible { }
+extension Int64: DataConvertible { }

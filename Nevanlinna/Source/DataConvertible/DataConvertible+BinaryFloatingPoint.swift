@@ -14,3 +14,6 @@ extension BinaryFloatingPoint where Self: DataConvertible {
         return withUnsafeBytes(of: self) { Data($0) }
     }
 }
+
+extension Float: DataConvertible { }
+extension Double: DataConvertible { }
