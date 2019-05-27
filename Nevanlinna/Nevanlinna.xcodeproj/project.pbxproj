@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F310165C229C3BD300F25D2D /* Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F310165B229C3BD300F25D2D /* Empty.swift */; };
 		F374B2AF227881130048926B /* DataConvertible+BinaryFloatingPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F374B2AE227881130048926B /* DataConvertible+BinaryFloatingPoint.swift */; };
 		F374B2B1227881680048926B /* DataConvertible+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = F374B2B0227881680048926B /* DataConvertible+String.swift */; };
 		F3C366382269CDB900B09E14 /* DataConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C3662E2269CDB900B09E14 /* DataConvertible.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F310165B229C3BD300F25D2D /* Empty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empty.swift; sourceTree = "<group>"; };
 		F374B2AE227881130048926B /* DataConvertible+BinaryFloatingPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DataConvertible+BinaryFloatingPoint.swift"; sourceTree = "<group>"; };
 		F374B2B0227881680048926B /* DataConvertible+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataConvertible+String.swift"; sourceTree = "<group>"; };
 		F3C3661C2269CAA400B09E14 /* Nevanlinna.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nevanlinna.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +67,7 @@
 		F3C3662B2269CBDE00B09E14 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				F310165B229C3BD300F25D2D /* Empty.swift */,
 				F3C366302269CDB900B09E14 /* BitField */,
 				F3C3662D2269CDB900B09E14 /* DataConvertible */,
 				F3C366322269CDB900B09E14 /* DataInitializable */,
@@ -227,6 +230,7 @@
 				F3C3663C2269CDB900B09E14 /* DataInitializable+BinaryInteger.swift in Sources */,
 				F3C3663F2269CDB900B09E14 /* DataInitializable+String.swift in Sources */,
 				F3C3663B2269CDB900B09E14 /* DataInitializable+BinaryFloatingPoint.swift in Sources */,
+				F310165C229C3BD300F25D2D /* Empty.swift in Sources */,
 				F374B2B1227881680048926B /* DataConvertible+String.swift in Sources */,
 				F374B2AF227881130048926B /* DataConvertible+BinaryFloatingPoint.swift in Sources */,
 			);
