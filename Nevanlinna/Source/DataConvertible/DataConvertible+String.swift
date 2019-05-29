@@ -11,6 +11,6 @@ import Foundation
 extension String: DataConvertible {
     public func toData() -> Data {
         /// Return Data of the object.
-        return withUnsafeBytes(of: self) { Data($0) }
+        return Data(utf8)
     }
 }
