@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F310165C229C3BD300F25D2D /* Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F310165B229C3BD300F25D2D /* Empty.swift */; };
+		F327DF592314262A0038701A /* DataConvertible+Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = F327DF582314262A0038701A /* DataConvertible+Array.swift */; };
 		F374B2AF227881130048926B /* DataConvertible+BinaryFloatingPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F374B2AE227881130048926B /* DataConvertible+BinaryFloatingPoint.swift */; };
 		F374B2B1227881680048926B /* DataConvertible+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = F374B2B0227881680048926B /* DataConvertible+String.swift */; };
 		F3C366382269CDB900B09E14 /* DataConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C3662E2269CDB900B09E14 /* DataConvertible.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		F310165B229C3BD300F25D2D /* Empty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empty.swift; sourceTree = "<group>"; };
+		F327DF582314262A0038701A /* DataConvertible+Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataConvertible+Array.swift"; sourceTree = "<group>"; };
 		F374B2AE227881130048926B /* DataConvertible+BinaryFloatingPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DataConvertible+BinaryFloatingPoint.swift"; sourceTree = "<group>"; };
 		F374B2B0227881680048926B /* DataConvertible+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataConvertible+String.swift"; sourceTree = "<group>"; };
 		F3C3661C2269CAA400B09E14 /* Nevanlinna.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nevanlinna.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,6 +84,7 @@
 				F3C3662F2269CDB900B09E14 /* DataConvertible+BinaryInteger.swift */,
 				F374B2AE227881130048926B /* DataConvertible+BinaryFloatingPoint.swift */,
 				F374B2B0227881680048926B /* DataConvertible+String.swift */,
+				F327DF582314262A0038701A /* DataConvertible+Array.swift */,
 			);
 			path = DataConvertible;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 			files = (
 				F3C3663A2269CDB900B09E14 /* BitField+BinaryInteger.swift in Sources */,
 				F3C3663D2269CDB900B09E14 /* DataInitializable.swift in Sources */,
+				F327DF592314262A0038701A /* DataConvertible+Array.swift in Sources */,
 				F3C366382269CDB900B09E14 /* DataConvertible.swift in Sources */,
 				F3C366392269CDB900B09E14 /* DataConvertible+BinaryInteger.swift in Sources */,
 				F3C3663C2269CDB900B09E14 /* DataInitializable+BinaryInteger.swift in Sources */,
