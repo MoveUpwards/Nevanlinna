@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04E9B0A423572BC300DB3EC1 /* Nevanlinna.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C3661C2269CAA400B09E14 /* Nevanlinna.framework */; };
+		04E9B0AB23572BFA00DB3EC1 /* BitField+BinaryIntegerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9B0AA23572BFA00DB3EC1 /* BitField+BinaryIntegerTests.swift */; };
+		04E9B0AD2357568800DB3EC1 /* DataInitializableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9B0AC2357568800DB3EC1 /* DataInitializableTests.swift */; };
+		04E9B0AF23575ECA00DB3EC1 /* EmptyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9B0AE23575ECA00DB3EC1 /* EmptyTests.swift */; };
+		04E9B0B123575FD500DB3EC1 /* DataConvertibleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9B0B023575FD500DB3EC1 /* DataConvertibleTests.swift */; };
 		F310165C229C3BD300F25D2D /* Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F310165B229C3BD300F25D2D /* Empty.swift */; };
 		F327DF592314262A0038701A /* DataConvertible+Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = F327DF582314262A0038701A /* DataConvertible+Array.swift */; };
 		F374B2AF227881130048926B /* DataConvertible+BinaryFloatingPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F374B2AE227881130048926B /* DataConvertible+BinaryFloatingPoint.swift */; };
@@ -20,7 +25,23 @@
 		F3C3663F2269CDB900B09E14 /* DataInitializable+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C366372269CDB900B09E14 /* DataInitializable+String.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		04E9B0A523572BC300DB3EC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3C366132269CAA400B09E14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3C3661B2269CAA400B09E14;
+			remoteInfo = Nevanlinna;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		04E9B09F23572BC300DB3EC1 /* NevanlinnaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NevanlinnaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E9B0A323572BC300DB3EC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E9B0AA23572BFA00DB3EC1 /* BitField+BinaryIntegerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BitField+BinaryIntegerTests.swift"; sourceTree = "<group>"; };
+		04E9B0AC2357568800DB3EC1 /* DataInitializableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataInitializableTests.swift; sourceTree = "<group>"; };
+		04E9B0AE23575ECA00DB3EC1 /* EmptyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyTests.swift; sourceTree = "<group>"; };
+		04E9B0B023575FD500DB3EC1 /* DataConvertibleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataConvertibleTests.swift; sourceTree = "<group>"; };
 		F310165B229C3BD300F25D2D /* Empty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empty.swift; sourceTree = "<group>"; };
 		F327DF582314262A0038701A /* DataConvertible+Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataConvertible+Array.swift"; sourceTree = "<group>"; };
 		F374B2AE227881130048926B /* DataConvertible+BinaryFloatingPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DataConvertible+BinaryFloatingPoint.swift"; sourceTree = "<group>"; };
@@ -38,6 +59,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		04E9B09C23572BC300DB3EC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E9B0A423572BC300DB3EC1 /* Nevanlinna.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F3C366192269CAA400B09E14 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -48,12 +77,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04E9B0A023572BC300DB3EC1 /* NevanlinnaTests */ = {
+			isa = PBXGroup;
+			children = (
+				04E9B0B023575FD500DB3EC1 /* DataConvertibleTests.swift */,
+				04E9B0AE23575ECA00DB3EC1 /* EmptyTests.swift */,
+				04E9B0AC2357568800DB3EC1 /* DataInitializableTests.swift */,
+				04E9B0AA23572BFA00DB3EC1 /* BitField+BinaryIntegerTests.swift */,
+				04E9B0A323572BC300DB3EC1 /* Info.plist */,
+			);
+			path = NevanlinnaTests;
+			sourceTree = "<group>";
+		};
 		F3C366122269CAA400B09E14 = {
 			isa = PBXGroup;
 			children = (
 				F3C366272269CB4400B09E14 /* Nevanlinna.h */,
 				F3C3662C2269CBF900B09E14 /* Info.plist */,
 				F3C3662B2269CBDE00B09E14 /* Source */,
+				04E9B0A023572BC300DB3EC1 /* NevanlinnaTests */,
 				F3C3661D2269CAA400B09E14 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				F3C3661C2269CAA400B09E14 /* Nevanlinna.framework */,
+				04E9B09F23572BC300DB3EC1 /* NevanlinnaTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,6 +164,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		04E9B09E23572BC300DB3EC1 /* NevanlinnaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E9B0A723572BC300DB3EC1 /* Build configuration list for PBXNativeTarget "NevanlinnaTests" */;
+			buildPhases = (
+				04E9B09B23572BC300DB3EC1 /* Sources */,
+				04E9B09C23572BC300DB3EC1 /* Frameworks */,
+				04E9B09D23572BC300DB3EC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04E9B0A623572BC300DB3EC1 /* PBXTargetDependency */,
+			);
+			name = NevanlinnaTests;
+			productName = NevanlinnaTests;
+			productReference = 04E9B09F23572BC300DB3EC1 /* NevanlinnaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		F3C3661B2269CAA400B09E14 /* Nevanlinna */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3C366242269CAA400B09E14 /* Build configuration list for PBXNativeTarget "Nevanlinna" */;
@@ -147,9 +208,13 @@
 		F3C366132269CAA400B09E14 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1110;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Loïc GRIFFIE";
 				TargetAttributes = {
+					04E9B09E23572BC300DB3EC1 = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					F3C3661B2269CAA400B09E14 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -168,11 +233,19 @@
 			projectRoot = "";
 			targets = (
 				F3C3661B2269CAA400B09E14 /* Nevanlinna */,
+				04E9B09E23572BC300DB3EC1 /* NevanlinnaTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		04E9B09D23572BC300DB3EC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F3C3661A2269CAA400B09E14 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -222,6 +295,17 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		04E9B09B23572BC300DB3EC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E9B0AB23572BFA00DB3EC1 /* BitField+BinaryIntegerTests.swift in Sources */,
+				04E9B0AD2357568800DB3EC1 /* DataInitializableTests.swift in Sources */,
+				04E9B0AF23575ECA00DB3EC1 /* EmptyTests.swift in Sources */,
+				04E9B0B123575FD500DB3EC1 /* DataConvertibleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F3C366182269CAA400B09E14 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -242,7 +326,53 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		04E9B0A623572BC300DB3EC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3C3661B2269CAA400B09E14 /* Nevanlinna */;
+			targetProxy = 04E9B0A523572BC300DB3EC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		04E9B0A823572BC300DB3EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S47LZ927R6;
+				INFOPLIST_FILE = NevanlinnaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vbkam.NevanlinnaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04E9B0A923572BC300DB3EC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S47LZ927R6;
+				INFOPLIST_FILE = NevanlinnaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vbkam.NevanlinnaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		F3C366222269CAA400B09E14 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -420,6 +550,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		04E9B0A723572BC300DB3EC1 /* Build configuration list for PBXNativeTarget "NevanlinnaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E9B0A823572BC300DB3EC1 /* Debug */,
+				04E9B0A923572BC300DB3EC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F3C366162269CAA400B09E14 /* Build configuration list for PBXProject "Nevanlinna" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
