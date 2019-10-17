@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'Nevanlinna'
-  s.version = '0.1.0'
+  s.version = '0.5.0'
   s.license = 'MIT'
   s.summary = 'Nevanlinna is a framework that expose extensions.'
   s.description  = <<-DESC
