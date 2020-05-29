@@ -19,7 +19,7 @@ let package = Package(
         .target(
             name: "Nevanlinna",
             dependencies: [],
-            path: "Nevanlinna/Source"
+            path: "Nevanlinna/Sources"
         ),
     ]
 )
