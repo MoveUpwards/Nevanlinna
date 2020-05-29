@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'Nevanlinna'
-  s.version = '0.6.0'
+  s.version = '0.7.0'
   s.license = 'MIT'
   s.summary = 'Nevanlinna is a framework that expose extensions.'
   s.description  = <<-DESC
@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.source = { :git => 'https://github.com/MoveUpwards/Nevanlinna.git', :tag => s.version }
   s.swift_version               = '5.2'
   s.ios.deployment_target       = '9.1'
-  s.source_files                = 'Nevanlinna/Source/**/*.swift'
+  s.source_files                = 'Nevanlinna/Sources/**/*.swift'
   s.frameworks                  = 'Foundation'
 end

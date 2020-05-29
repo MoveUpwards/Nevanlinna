@@ -12,17 +12,17 @@
 		04E9B0AD2357568800DB3EC1 /* DataInitializableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9B0AC2357568800DB3EC1 /* DataInitializableTests.swift */; };
 		04E9B0AF23575ECA00DB3EC1 /* EmptyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9B0AE23575ECA00DB3EC1 /* EmptyTests.swift */; };
 		04E9B0B123575FD500DB3EC1 /* DataConvertibleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9B0B023575FD500DB3EC1 /* DataConvertibleTests.swift */; };
-		F310165C229C3BD300F25D2D /* Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F310165B229C3BD300F25D2D /* Empty.swift */; };
-		F327DF592314262A0038701A /* DataConvertible+Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = F327DF582314262A0038701A /* DataConvertible+Array.swift */; };
-		F374B2AF227881130048926B /* DataConvertible+BinaryFloatingPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F374B2AE227881130048926B /* DataConvertible+BinaryFloatingPoint.swift */; };
-		F374B2B1227881680048926B /* DataConvertible+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = F374B2B0227881680048926B /* DataConvertible+String.swift */; };
-		F3C366382269CDB900B09E14 /* DataConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C3662E2269CDB900B09E14 /* DataConvertible.swift */; };
-		F3C366392269CDB900B09E14 /* DataConvertible+BinaryInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C3662F2269CDB900B09E14 /* DataConvertible+BinaryInteger.swift */; };
-		F3C3663A2269CDB900B09E14 /* BitField+BinaryInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C366312269CDB900B09E14 /* BitField+BinaryInteger.swift */; };
-		F3C3663B2269CDB900B09E14 /* DataInitializable+BinaryFloatingPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C366332269CDB900B09E14 /* DataInitializable+BinaryFloatingPoint.swift */; };
-		F3C3663C2269CDB900B09E14 /* DataInitializable+BinaryInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C366342269CDB900B09E14 /* DataInitializable+BinaryInteger.swift */; };
-		F3C3663D2269CDB900B09E14 /* DataInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C366352269CDB900B09E14 /* DataInitializable.swift */; };
-		F3C3663F2269CDB900B09E14 /* DataInitializable+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C366372269CDB900B09E14 /* DataInitializable+String.swift */; };
+		F3754653248116130018145B /* DataConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3754646248116130018145B /* DataConvertible.swift */; };
+		F3754654248116130018145B /* DataConvertible+BinaryInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3754647248116130018145B /* DataConvertible+BinaryInteger.swift */; };
+		F3754655248116130018145B /* DataConvertible+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3754648248116130018145B /* DataConvertible+String.swift */; };
+		F3754656248116130018145B /* DataConvertible+BinaryFloatingPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3754649248116130018145B /* DataConvertible+BinaryFloatingPoint.swift */; };
+		F3754657248116130018145B /* DataConvertible+Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = F375464A248116130018145B /* DataConvertible+Array.swift */; };
+		F3754658248116130018145B /* Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F375464B248116130018145B /* Empty.swift */; };
+		F3754659248116130018145B /* DataInitializable+BinaryFloatingPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F375464D248116130018145B /* DataInitializable+BinaryFloatingPoint.swift */; };
+		F375465A248116130018145B /* DataInitializable+BinaryInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F375464E248116130018145B /* DataInitializable+BinaryInteger.swift */; };
+		F375465B248116130018145B /* DataInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F375464F248116130018145B /* DataInitializable.swift */; };
+		F375465C248116130018145B /* DataInitializable+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3754650248116130018145B /* DataInitializable+String.swift */; };
+		F375465D248116130018145B /* BitField+BinaryInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3754652248116130018145B /* BitField+BinaryInteger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,20 +42,20 @@
 		04E9B0AC2357568800DB3EC1 /* DataInitializableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataInitializableTests.swift; sourceTree = "<group>"; };
 		04E9B0AE23575ECA00DB3EC1 /* EmptyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyTests.swift; sourceTree = "<group>"; };
 		04E9B0B023575FD500DB3EC1 /* DataConvertibleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataConvertibleTests.swift; sourceTree = "<group>"; };
-		F310165B229C3BD300F25D2D /* Empty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empty.swift; sourceTree = "<group>"; };
-		F327DF582314262A0038701A /* DataConvertible+Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataConvertible+Array.swift"; sourceTree = "<group>"; };
-		F374B2AE227881130048926B /* DataConvertible+BinaryFloatingPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DataConvertible+BinaryFloatingPoint.swift"; sourceTree = "<group>"; };
-		F374B2B0227881680048926B /* DataConvertible+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataConvertible+String.swift"; sourceTree = "<group>"; };
+		F3754646248116130018145B /* DataConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataConvertible.swift; sourceTree = "<group>"; };
+		F3754647248116130018145B /* DataConvertible+BinaryInteger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DataConvertible+BinaryInteger.swift"; sourceTree = "<group>"; };
+		F3754648248116130018145B /* DataConvertible+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DataConvertible+String.swift"; sourceTree = "<group>"; };
+		F3754649248116130018145B /* DataConvertible+BinaryFloatingPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DataConvertible+BinaryFloatingPoint.swift"; sourceTree = "<group>"; };
+		F375464A248116130018145B /* DataConvertible+Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DataConvertible+Array.swift"; sourceTree = "<group>"; };
+		F375464B248116130018145B /* Empty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Empty.swift; sourceTree = "<group>"; };
+		F375464D248116130018145B /* DataInitializable+BinaryFloatingPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DataInitializable+BinaryFloatingPoint.swift"; sourceTree = "<group>"; };
+		F375464E248116130018145B /* DataInitializable+BinaryInteger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DataInitializable+BinaryInteger.swift"; sourceTree = "<group>"; };
+		F375464F248116130018145B /* DataInitializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataInitializable.swift; sourceTree = "<group>"; };
+		F3754650248116130018145B /* DataInitializable+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DataInitializable+String.swift"; sourceTree = "<group>"; };
+		F3754652248116130018145B /* BitField+BinaryInteger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BitField+BinaryInteger.swift"; sourceTree = "<group>"; };
 		F3C3661C2269CAA400B09E14 /* Nevanlinna.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nevanlinna.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3C366272269CB4400B09E14 /* Nevanlinna.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nevanlinna.h; sourceTree = SOURCE_ROOT; };
 		F3C3662C2269CBF900B09E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3C3662E2269CDB900B09E14 /* DataConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataConvertible.swift; sourceTree = "<group>"; };
-		F3C3662F2269CDB900B09E14 /* DataConvertible+BinaryInteger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DataConvertible+BinaryInteger.swift"; sourceTree = "<group>"; };
-		F3C366312269CDB900B09E14 /* BitField+BinaryInteger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BitField+BinaryInteger.swift"; sourceTree = "<group>"; };
-		F3C366332269CDB900B09E14 /* DataInitializable+BinaryFloatingPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DataInitializable+BinaryFloatingPoint.swift"; sourceTree = "<group>"; };
-		F3C366342269CDB900B09E14 /* DataInitializable+BinaryInteger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DataInitializable+BinaryInteger.swift"; sourceTree = "<group>"; };
-		F3C366352269CDB900B09E14 /* DataInitializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataInitializable.swift; sourceTree = "<group>"; };
-		F3C366372269CDB900B09E14 /* DataInitializable+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DataInitializable+String.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,12 +89,54 @@
 			path = NevanlinnaTests;
 			sourceTree = "<group>";
 		};
+		F3754644248116130018145B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F3754645248116130018145B /* DataConvertible */,
+				F375464B248116130018145B /* Empty.swift */,
+				F375464C248116130018145B /* DataInitializable */,
+				F3754651248116130018145B /* BitField */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		F3754645248116130018145B /* DataConvertible */ = {
+			isa = PBXGroup;
+			children = (
+				F3754646248116130018145B /* DataConvertible.swift */,
+				F3754647248116130018145B /* DataConvertible+BinaryInteger.swift */,
+				F3754648248116130018145B /* DataConvertible+String.swift */,
+				F3754649248116130018145B /* DataConvertible+BinaryFloatingPoint.swift */,
+				F375464A248116130018145B /* DataConvertible+Array.swift */,
+			);
+			path = DataConvertible;
+			sourceTree = "<group>";
+		};
+		F375464C248116130018145B /* DataInitializable */ = {
+			isa = PBXGroup;
+			children = (
+				F375464D248116130018145B /* DataInitializable+BinaryFloatingPoint.swift */,
+				F375464E248116130018145B /* DataInitializable+BinaryInteger.swift */,
+				F375464F248116130018145B /* DataInitializable.swift */,
+				F3754650248116130018145B /* DataInitializable+String.swift */,
+			);
+			path = DataInitializable;
+			sourceTree = "<group>";
+		};
+		F3754651248116130018145B /* BitField */ = {
+			isa = PBXGroup;
+			children = (
+				F3754652248116130018145B /* BitField+BinaryInteger.swift */,
+			);
+			path = BitField;
+			sourceTree = "<group>";
+		};
 		F3C366122269CAA400B09E14 = {
 			isa = PBXGroup;
 			children = (
 				F3C366272269CB4400B09E14 /* Nevanlinna.h */,
 				F3C3662C2269CBF900B09E14 /* Info.plist */,
-				F3C3662B2269CBDE00B09E14 /* Source */,
+				F3754644248116130018145B /* Sources */,
 				04E9B0A023572BC300DB3EC1 /* NevanlinnaTests */,
 				F3C3661D2269CAA400B09E14 /* Products */,
 			);
@@ -107,48 +149,6 @@
 				04E9B09F23572BC300DB3EC1 /* NevanlinnaTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		F3C3662B2269CBDE00B09E14 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				F310165B229C3BD300F25D2D /* Empty.swift */,
-				F3C366302269CDB900B09E14 /* BitField */,
-				F3C3662D2269CDB900B09E14 /* DataConvertible */,
-				F3C366322269CDB900B09E14 /* DataInitializable */,
-			);
-			path = Source;
-			sourceTree = SOURCE_ROOT;
-		};
-		F3C3662D2269CDB900B09E14 /* DataConvertible */ = {
-			isa = PBXGroup;
-			children = (
-				F3C3662E2269CDB900B09E14 /* DataConvertible.swift */,
-				F3C3662F2269CDB900B09E14 /* DataConvertible+BinaryInteger.swift */,
-				F374B2AE227881130048926B /* DataConvertible+BinaryFloatingPoint.swift */,
-				F374B2B0227881680048926B /* DataConvertible+String.swift */,
-				F327DF582314262A0038701A /* DataConvertible+Array.swift */,
-			);
-			path = DataConvertible;
-			sourceTree = "<group>";
-		};
-		F3C366302269CDB900B09E14 /* BitField */ = {
-			isa = PBXGroup;
-			children = (
-				F3C366312269CDB900B09E14 /* BitField+BinaryInteger.swift */,
-			);
-			path = BitField;
-			sourceTree = "<group>";
-		};
-		F3C366322269CDB900B09E14 /* DataInitializable */ = {
-			isa = PBXGroup;
-			children = (
-				F3C366352269CDB900B09E14 /* DataInitializable.swift */,
-				F3C366342269CDB900B09E14 /* DataInitializable+BinaryInteger.swift */,
-				F3C366332269CDB900B09E14 /* DataInitializable+BinaryFloatingPoint.swift */,
-				F3C366372269CDB900B09E14 /* DataInitializable+String.swift */,
-			);
-			path = DataInitializable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,17 +310,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3C3663A2269CDB900B09E14 /* BitField+BinaryInteger.swift in Sources */,
-				F3C3663D2269CDB900B09E14 /* DataInitializable.swift in Sources */,
-				F327DF592314262A0038701A /* DataConvertible+Array.swift in Sources */,
-				F3C366382269CDB900B09E14 /* DataConvertible.swift in Sources */,
-				F3C366392269CDB900B09E14 /* DataConvertible+BinaryInteger.swift in Sources */,
-				F3C3663C2269CDB900B09E14 /* DataInitializable+BinaryInteger.swift in Sources */,
-				F3C3663F2269CDB900B09E14 /* DataInitializable+String.swift in Sources */,
-				F3C3663B2269CDB900B09E14 /* DataInitializable+BinaryFloatingPoint.swift in Sources */,
-				F310165C229C3BD300F25D2D /* Empty.swift in Sources */,
-				F374B2B1227881680048926B /* DataConvertible+String.swift in Sources */,
-				F374B2AF227881130048926B /* DataConvertible+BinaryFloatingPoint.swift in Sources */,
+				F375465D248116130018145B /* BitField+BinaryInteger.swift in Sources */,
+				F3754653248116130018145B /* DataConvertible.swift in Sources */,
+				F375465A248116130018145B /* DataInitializable+BinaryInteger.swift in Sources */,
+				F3754659248116130018145B /* DataInitializable+BinaryFloatingPoint.swift in Sources */,
+				F3754656248116130018145B /* DataConvertible+BinaryFloatingPoint.swift in Sources */,
+				F3754655248116130018145B /* DataConvertible+String.swift in Sources */,
+				F3754657248116130018145B /* DataConvertible+Array.swift in Sources */,
+				F3754654248116130018145B /* DataConvertible+BinaryInteger.swift in Sources */,
+				F375465B248116130018145B /* DataInitializable.swift in Sources */,
+				F375465C248116130018145B /* DataInitializable+String.swift in Sources */,
+				F3754658248116130018145B /* Empty.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +338,7 @@
 		04E9B0A823572BC300DB3EC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S47LZ927R6;
 				INFOPLIST_FILE = NevanlinnaTests/Info.plist;
@@ -357,6 +358,7 @@
 		04E9B0A923572BC300DB3EC1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S47LZ927R6;
 				INFOPLIST_FILE = NevanlinnaTests/Info.plist;
@@ -513,7 +515,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.6.0;
+				MARKETING_VERSION = 0.7.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.surfin.Nevanlinna;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -540,7 +542,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.6.0;
+				MARKETING_VERSION = 0.7.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.surfin.Nevanlinna;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
