@@ -26,7 +26,7 @@ class EmptyTests: XCTestCase {
             return
         }
 
-        XCTAssertEqual(emtpy.toData(), fakeEmpty.toData())
-        XCTAssertEqual(emtpy.toData(), Data())
+        XCTAssertEqual(emtpy.data, fakeEmpty.data)
+        XCTAssertEqual(emtpy.data, Data())
     }
 }

@@ -11,5 +11,5 @@ import Foundation
 /// Protocol to cast your own type to BLE Data.
 public protocol DataConvertible {
     /// Return Data of the object.
-    func toData() -> Data
+    var data: Data { get }
 }

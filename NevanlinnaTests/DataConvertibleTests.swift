@@ -25,17 +25,17 @@ class DataConvertibleTests: XCTestCase {
         let arrayFour: [UInt8] = [132, 75, 99, 12]
         let arrayEight: [UInt8] = [132, 75, 99, 12, 202, 123, 32, 79]
 
-        XCTAssertEqual(UInt8(132).toData(), Data(arrayOne))
-        XCTAssertEqual(UInt16(19332).toData(), Data(arrayTwo))
-        XCTAssertEqual(UInt32(207833988).toData(), Data(arrayFour))
-        XCTAssertEqual(UInt64(5701693235972492164).toData(), Data(arrayEight))
+        XCTAssertEqual(UInt8(132).data, Data(arrayOne))
+        XCTAssertEqual(UInt16(19332).data, Data(arrayTwo))
+        XCTAssertEqual(UInt32(207833988).data, Data(arrayFour))
+        XCTAssertEqual(UInt64(5701693235972492164).data, Data(arrayEight))
 
         let arrayOneBis: [UInt8] = [132, 0, 0, 0]
         let arrayTwoBis: [UInt8] = [132, 75, 0, 0, 0, 0, 0, 0]
 
-        XCTAssertEqual(Float(1.85e-43).toData(), Data(arrayOneBis))
-        XCTAssertEqual(Double(9.5513e-320).toData(), Data(arrayTwoBis))
-//        XCTAssertEqual(Float80(-5.463327223678727333e+887).toData(), Data(arrayEight))
+        XCTAssertEqual(Float(1.85e-43).data, Data(arrayOneBis))
+        XCTAssertEqual(Double(9.5513e-320).data, Data(arrayTwoBis))
+//        XCTAssertEqual(Float80(-5.463327223678727333e+887).data, Data(arrayEight))
     }
 
     func testToDataString() {
@@ -47,12 +47,12 @@ class DataConvertibleTests: XCTestCase {
                                       103, 32, 115, 101, 110, 116, 101, 110, 99, 101, 33]
         let arrayUnicorn: [UInt8] = [240, 159, 166, 132]
 
-        XCTAssertEqual(String(with: arrayNil)?.toData(), nil)
-        XCTAssertEqual("@".toData(), Data(arrayAt))
-        XCTAssertEqual("ok".toData(), Data(arrayOk))
-        XCTAssertEqual("Hello".toData(), Data(arrayHello))
-        XCTAssertEqual("A very long sentence!".toData(), Data(arraySentence))
-        XCTAssertEqual("🦄".toData(), Data(arrayUnicorn))
+        XCTAssertEqual(String(with: arrayNil)?.data, nil)
+        XCTAssertEqual("@".data, Data(arrayAt))
+        XCTAssertEqual("ok".data, Data(arrayOk))
+        XCTAssertEqual("Hello".data, Data(arrayHello))
+        XCTAssertEqual("A very long sentence!".data, Data(arraySentence))
+        XCTAssertEqual("🦄".data, Data(arrayUnicorn))
     }
 
     func testToDataArray() {
@@ -61,14 +61,14 @@ class DataConvertibleTests: XCTestCase {
         let arrayFour: [UInt8] = [132, 75, 99, 12]
         let arrayEight: [UInt8] = [132, 75, 99, 12, 202, 123, 32, 79]
 
-        XCTAssertEqual(arrayOne.toData(), Data(arrayOne))
-        XCTAssertEqual(arrayTwo.toData(), Data(arrayTwo))
-        XCTAssertEqual(arrayFour.toData(), Data(arrayFour))
-        XCTAssertEqual(arrayEight.toData(), Data(arrayEight))
+        XCTAssertEqual(arrayOne.data, Data(arrayOne))
+        XCTAssertEqual(arrayTwo.data, Data(arrayTwo))
+        XCTAssertEqual(arrayFour.data, Data(arrayFour))
+        XCTAssertEqual(arrayEight.data, Data(arrayEight))
 
         let arrayNotImplemented: [UInt16] = [132, 75]
 
-        XCTAssertEqual(arrayNotImplemented.toData(), Data())
+        XCTAssertEqual(arrayNotImplemented.data, Data())
     }
 
 }

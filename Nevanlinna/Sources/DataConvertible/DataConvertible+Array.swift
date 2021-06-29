@@ -9,7 +9,7 @@
 import Foundation
 
 extension Array: DataConvertible where Element: UnsignedInteger {
-    public func toData() -> Data {
+    public var data: Data  {
         guard self is [UInt8] else {
             return Data()
         }

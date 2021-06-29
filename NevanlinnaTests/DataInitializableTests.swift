@@ -55,10 +55,10 @@ class DataInitializableTests: XCTestCase {
         let arrayFour: [UInt8] = [132, 75, 99, 12]
         let arrayEight: [UInt8] = [132, 75, 99, 12, 202, 123, 32, 79]
 
-        XCTAssertEqual(UInt8(132).toData().toOctets, arrayOne)
-        XCTAssertEqual(UInt16(19332).toData().toOctets, arrayTwo)
-        XCTAssertEqual(UInt32(207833988).toData().toOctets, arrayFour)
-        XCTAssertEqual(UInt64(5701693235972492164).toData().toOctets, arrayEight)
+        XCTAssertEqual(UInt8(132).data.toOctets, arrayOne)
+        XCTAssertEqual(UInt16(19332).data.toOctets, arrayTwo)
+        XCTAssertEqual(UInt32(207833988).data.toOctets, arrayFour)
+        XCTAssertEqual(UInt64(5701693235972492164).data.toOctets, arrayEight)
     }
 
     func testInitWithOctetsFloatingPoint() {
