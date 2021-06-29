@@ -21,5 +21,11 @@ let package = Package(
             dependencies: [],
             path: "Nevanlinna/Sources"
         ),
+        .testTarget(
+            name: "NevanlinnaTests",
+            dependencies: [
+                .target(name: "Nevanlinna")
+            ],
+            path: "NevanlinnaTests")
     ]
 )

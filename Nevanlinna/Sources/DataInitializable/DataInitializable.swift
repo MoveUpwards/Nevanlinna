@@ -16,7 +16,5 @@ public protocol DataInitializable {
 
 extension Data {
     /// Converts Data to array of 8 bits.
-    public var toOctets: [UInt8] {
-        return [UInt8](self)
-    }
+    public var octets: [UInt8] { [UInt8](self) }
 }
