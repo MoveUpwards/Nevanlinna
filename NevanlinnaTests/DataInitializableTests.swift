@@ -55,10 +55,10 @@ class DataInitializableTests: XCTestCase {
         let arrayFour: [UInt8] = [132, 75, 99, 12]
         let arrayEight: [UInt8] = [132, 75, 99, 12, 202, 123, 32, 79]
 
-        XCTAssertEqual(UInt8(132).toData().toOctets, arrayOne)
-        XCTAssertEqual(UInt16(19332).toData().toOctets, arrayTwo)
-        XCTAssertEqual(UInt32(207833988).toData().toOctets, arrayFour)
-        XCTAssertEqual(UInt64(5701693235972492164).toData().toOctets, arrayEight)
+        XCTAssertEqual(UInt8(132).data.octets, arrayOne)
+        XCTAssertEqual(UInt16(19332).data.octets, arrayTwo)
+        XCTAssertEqual(UInt32(207833988).data.octets, arrayFour)
+        XCTAssertEqual(UInt64(5701693235972492164).data.octets, arrayEight)
     }
 
     func testInitWithOctetsFloatingPoint() {
@@ -77,10 +77,12 @@ class DataInitializableTests: XCTestCase {
         XCTAssertEqual(Double(with: arrayFour), Double(1.026836335e-315))
         XCTAssertEqual(Double(with: arrayEight), Double(1.456195752546562e+73))
 
+        #if !os(Windows) && (arch(i386) || arch(x86_64))
         XCTAssertEqual(Float80(with: arrayOne), 0.0) // 6 octets or more
         XCTAssertEqual(Float80(with: arrayTwo), 0.0) // 6 octets or more
         XCTAssertEqual(Float80(with: arrayFour), 0.0) // 6 octets or more
         XCTAssertEqual(Float80(with: arrayEight), -5.463327223678727333e+887)
+        #endif
     }
 
     func testInitWithOctetsString() {

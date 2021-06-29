@@ -9,8 +9,6 @@
 import Foundation
 
 extension String: DataConvertible {
-    public func toData() -> Data {
-        /// Return Data of the object.
-        return Data(utf8)
-    }
+    /// Return Data of the object.
+    public var data: Data { Data(utf8) }
 }

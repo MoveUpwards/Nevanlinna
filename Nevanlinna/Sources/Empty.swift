@@ -17,7 +17,5 @@ public struct Empty: DataInitializable, DataConvertible {
     public init?(with octets: [UInt8]) { }
 
     /// Return Data of the object.
-    public func toData() -> Data {
-        return Data()
-    }
+    public var data: Data { Data() }
 }

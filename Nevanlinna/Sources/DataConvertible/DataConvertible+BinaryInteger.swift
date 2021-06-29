@@ -9,10 +9,8 @@
 import Foundation
 
 extension BinaryInteger where Self: DataConvertible {
-    public func toData() -> Data {
-        /// Return Data of the object.
-        return withUnsafeBytes(of: self) { Data($0) }
-    }
+    /// Return Data of the object.
+    public var data: Data { withUnsafeBytes(of: self) { Data($0) } }
 }
 
 extension UInt: DataConvertible { }

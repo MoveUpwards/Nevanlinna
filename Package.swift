@@ -1,4 +1,4 @@
-// swift-tools-version:5.2
+// swift-tools-version:5.3
 
 import PackageDescription
 
@@ -21,5 +21,11 @@ let package = Package(
             dependencies: [],
             path: "Nevanlinna/Sources"
         ),
+        .testTarget(
+            name: "NevanlinnaTests",
+            dependencies: [
+                .target(name: "Nevanlinna")
+            ],
+            path: "NevanlinnaTests")
     ]
 )
